@@ -1,7 +1,7 @@
 import numpy as np
 
 def exercicio1():
-    dados = np.genfromtxt("space.csv", delimiter=";", dtype=str, encoding="utf-8")
+    dados = np.genfromtxt("Cap4Parte3/space.csv", delimiter=";", dtype=str, encoding="utf-8")
 
     cabecalho = dados[0]
     dados = dados[1:]
